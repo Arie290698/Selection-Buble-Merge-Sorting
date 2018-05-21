@@ -1,3 +1,11 @@
+/*
+Link Github : 
+https://github.com/Arie290698/Selection-Buble-Merge-Sorting
+
+References :
+http://faculty.cs.niu.edu/~hutchins/csci241/sorting.htm
+http://faculty.cs.niu.edu/~hutchins/csci241/mergsort.htm
+*/
 #include <iostream>
 #include <string>
 using namespace std;
