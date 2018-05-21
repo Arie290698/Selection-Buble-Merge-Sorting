@@ -66,7 +66,14 @@ int main(){
 	break;
 			
 	case '3':
-	
+		system("cls");
+		cout << "\t-=[ Merge Sorting ]=-";
+		cout << "\n\tUnsorted Data : ";
+		for (i = 0; i < (n); i++) {
+		    cout << data[i] << " ";
+		}
+
+		cout << "\n\n\tSorted Data : ";
 	break;
 			
 	default:
