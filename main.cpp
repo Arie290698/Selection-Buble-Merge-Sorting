@@ -92,4 +92,5 @@ int main(){
 		cout << "\nPilihan Program Salah atau Tidak Dikenali";
 		system("PAUSE");
 	break;
+	}
 }
