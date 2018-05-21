@@ -5,6 +5,9 @@ https://github.com/Arie290698/Selection-Buble-Merge-Sorting
 References :
 http://faculty.cs.niu.edu/~hutchins/csci241/sorting.htm
 http://faculty.cs.niu.edu/~hutchins/csci241/mergsort.htm
+
+Thanks for :
+http://format.krzaq.cc/
 */
 #include <iostream>
 #include <string>
