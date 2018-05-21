@@ -16,7 +16,29 @@ int main(){
 
     	switch (pilihan) {
     	case '1':
-	
+		system("cls");
+		cout << "\n\t-=[ Selection Sort ]=-" << endl;
+		cout << "\tUnsorted Data : ";
+		for (i = 0; i < (n); i++) {
+		    cout << data[i] << " ";
+		}
+
+		cout << "\n\n\tSorted Data : ";
+		for (i = 0; i < n; i++) {
+		    int Smallsub = i;
+		    for (j = i + 1; j < n; j++) {
+			if (data[j] < data[Smallsub]) {
+			    Smallsub = j;
+			}
+		    }
+
+		    int temp = data[i];
+		    data[i] = data[Smallsub];
+		    data[Smallsub] = temp;
+
+		    cout << data[i] << " ";
+		}
+		cout << endl;
 	break;
 	
 	case '2':
