@@ -42,7 +42,12 @@ int main(){
 	break;
 	
 	case '2':
-	
+		system("cls");
+		cout << "\t-=[ Buble Sorting ]=-";
+		cout << "\n\tUnsorted Data : ";
+		for (i = 0; i < (n); i++) {
+		    cout << data[i] << " ";
+		}
 	break;
 			
 	case '3':
